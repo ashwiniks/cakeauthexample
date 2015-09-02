@@ -1,0 +1,233 @@
+2015-09-02 00:32:14 Error: Fatal Error (64): Cannot redeclare User::$belongsTo in [/opt/lampp/htdocs/access/app/Model/User.php, line 83]
+2015-09-02 00:32:14 Error: [FatalErrorException] Cannot redeclare User::$belongsTo
+Request URL: /access/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 83)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 83, Array)
+#2 /opt/lampp/htdocs/access/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/opt/lampp/htdo...', 83, Array)
+#3 /opt/lampp/htdocs/access/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-02 00:32:26 Error: Fatal Error (64): Cannot redeclare User::$belongsTo in [/opt/lampp/htdocs/access/app/Model/User.php, line 83]
+2015-09-02 00:32:26 Error: [FatalErrorException] Cannot redeclare User::$belongsTo
+Request URL: /access/users
+Stack Trace:
+#0 /opt/lampp/htdocs/access/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 83)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 83, Array)
+#2 /opt/lampp/htdocs/access/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/opt/lampp/htdo...', 83, Array)
+#3 /opt/lampp/htdocs/access/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-02 00:32:56 Error: Fatal Error (64): Cannot redeclare User::$belongsTo in [/opt/lampp/htdocs/access/app/Model/User.php, line 83]
+2015-09-02 00:32:56 Error: [FatalErrorException] Cannot redeclare User::$belongsTo
+Request URL: /access/users
+Stack Trace:
+#0 /opt/lampp/htdocs/access/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 83)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 83, Array)
+#2 /opt/lampp/htdocs/access/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/opt/lampp/htdo...', 83, Array)
+#3 /opt/lampp/htdocs/access/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-02 18:52:28 Error: [NotFoundException] Invalid user
+Request URL: /access/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /opt/lampp/htdocs/access/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-02 18:58:08 Error: Fatal Error (1): Call to a member function paginate() on null in [/opt/lampp/htdocs/access/app/Controller/UsersController.php, line 52]
+2015-09-02 18:58:08 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /access/users
+Stack Trace:
+#0 /opt/lampp/htdocs/access/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 52, Array)
+#2 /opt/lampp/htdocs/access/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 52, Array)
+#3 /opt/lampp/htdocs/access/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-02 19:05:50 Error: [MissingActionException] Action PostsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'logout',
+)
+Request URL: /access/posts/logout
+Stack Trace:
+#0 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-02 19:21:48 Error: [CakeException] Authorization adapter "userModel" was not found.
+Request URL: /access/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AuthComponent.php(463): AuthComponent->constructAuthorize()
+#1 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 /opt/lampp/htdocs/access/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /opt/lampp/htdocs/access/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /opt/lampp/htdocs/access/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-09-02 19:21:58 Error: [CakeException] Authorization adapter "userModel" was not found.
+Request URL: /access/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AuthComponent.php(463): AuthComponent->constructAuthorize()
+#1 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 /opt/lampp/htdocs/access/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /opt/lampp/htdocs/access/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /opt/lampp/htdocs/access/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-09-02 19:22:15 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 3
+)
+"
+Request URL: /access/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/lib/Cake/Model/Permission.php(80): AclNode->node(Array)
+#1 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/Acl/DbAcl.php(74): Permission->check(Array, 'controllers/Use...', '*')
+#2 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AclComponent.php(110): DbAcl->check(Array, 'controllers/Use...', '*')
+#3 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php(38): AclComponent->check(Array, 'controllers/Use...')
+#4 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AuthComponent.php(466): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(UsersController))
+#7 /opt/lampp/htdocs/access/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /opt/lampp/htdocs/access/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 /opt/lampp/htdocs/access/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-09-02 19:22:29 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 3
+)
+"
+Request URL: /access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/lib/Cake/Model/Permission.php(80): AclNode->node(Array)
+#1 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/Acl/DbAcl.php(74): Permission->check(Array, 'controllers/Pos...', '*')
+#2 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AclComponent.php(110): DbAcl->check(Array, 'controllers/Pos...', '*')
+#3 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php(38): AclComponent->check(Array, 'controllers/Pos...')
+#4 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AuthComponent.php(466): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 /opt/lampp/htdocs/access/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PostsController))
+#7 /opt/lampp/htdocs/access/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /opt/lampp/htdocs/access/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#10 /opt/lampp/htdocs/access/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /opt/lampp/htdocs/access/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-09-02 20:05:41 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-02 20:05:53 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-02 20:06:04 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-02 20:06:53 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 00:12:48 Error: [MissingControllerException] Controller class WidgetController could not be found.
+Exception Attributes: array (
+  'class' => 'WidgetController',
+  'plugin' => NULL,
+)
+Request URL: /access/widget
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 00:26:33 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 00:27:35 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 00:27:43 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 00:28:00 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 00:31:24 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 00:39:50 Error: [MissingControllerException] Controller class AccessController could not be found.
+Exception Attributes: array (
+  'class' => 'AccessController',
+  'plugin' => NULL,
+)
+Request URL: /access/access/posts/add
+Stack Trace:
+#0 /opt/lampp/htdocs/access/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
